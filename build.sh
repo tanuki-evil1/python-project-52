@@ -5,7 +5,7 @@
 # дальше мы загружаем в поключенную базу наш sql-файл с таблицами
 
 source .env
-make install && psql -a -d $DATABASE_URL
+make install
 
 
 # Apply any outstanding database migrations
